@@ -10,15 +10,30 @@
 		0686FD1C567400917E2045F4 /* Pods_DigioTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF3453744E3E8108FC3CA78 /* Pods_DigioTestTests.framework */; };
 		3026CE111056B50E4BF04E2D /* Pods_DigioTest_DigioTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D77DCC1F52DD7FE0AA14B72 /* Pods_DigioTest_DigioTestUITests.framework */; };
 		7060721934167CFE80F139A5 /* Pods_DigioTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEA08DE29EE5038859267B6 /* Pods_DigioTest.framework */; };
+		C68BD29F2977760400ADF757 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD29E2977760400ADF757 /* Home.swift */; };
+		C68BD2A12977768B00ADF757 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD2A02977768B00ADF757 /* Common.swift */; };
+		C68BD2A4297776BE00ADF757 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD2A3297776BE00ADF757 /* ImageLoader.swift */; };
 		C6BF71D42971E1DC00ECDE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71D32971E1DC00ECDE21 /* AppDelegate.swift */; };
-		C6BF71D62971E1DC00ECDE21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71D52971E1DC00ECDE21 /* SceneDelegate.swift */; };
-		C6BF71D82971E1DC00ECDE21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71D72971E1DC00ECDE21 /* ViewController.swift */; };
-		C6BF71DB2971E1DC00ECDE21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BF71D92971E1DC00ECDE21 /* Main.storyboard */; };
+		C6BF71D82971E1DC00ECDE21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71D72971E1DC00ECDE21 /* HomeViewController.swift */; };
+		C6BF71DB2971E1DC00ECDE21 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BF71D92971E1DC00ECDE21 /* Home.storyboard */; };
 		C6BF71DD2971E1DD00ECDE21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6BF71DC2971E1DD00ECDE21 /* Assets.xcassets */; };
 		C6BF71E02971E1DD00ECDE21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BF71DE2971E1DD00ECDE21 /* LaunchScreen.storyboard */; };
 		C6BF71EB2971E1DD00ECDE21 /* DigioTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71EA2971E1DD00ECDE21 /* DigioTestTests.swift */; };
 		C6BF71F52971E1DD00ECDE21 /* DigioTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71F42971E1DD00ECDE21 /* DigioTestUITests.swift */; };
 		C6BF71F72971E1DD00ECDE21 /* DigioTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71F62971E1DD00ECDE21 /* DigioTestUITestsLaunchTests.swift */; };
+		C6BF72092971E68900ECDE21 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF72082971E68900ECDE21 /* HomeInteractor.swift */; };
+		C6BF720B2971E69700ECDE21 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF720A2971E69700ECDE21 /* HomePresenter.swift */; };
+		C6BF720D2971E6A800ECDE21 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF720C2971E6A800ECDE21 /* HomeRouter.swift */; };
+		C6BF72152971E7ED00ECDE21 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF72142971E7ED00ECDE21 /* Banner.swift */; };
+		C6BF721A2971E88D00ECDE21 /* HomeContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF72192971E88D00ECDE21 /* HomeContent.swift */; };
+		C6BF721E2971EB7F00ECDE21 /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF721D2971EB7F00ECDE21 /* HomeModels.swift */; };
+		C6BF72232971FCDC00ECDE21 /* BannerGalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF72222971FCDC00ECDE21 /* BannerGalleryCell.swift */; };
+		C6BF72252977117900ECDE21 /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF72242977117900ECDE21 /* HomeWorker.swift */; };
+		C6BF7229297711FC00ECDE21 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF7228297711FC00ECDE21 /* Networking.swift */; };
+		C6BF722B2977144300ECDE21 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF722A2977144300ECDE21 /* HTTPMethod.swift */; };
+		C6BF722D2977161C00ECDE21 /* Encoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF722C2977161C00ECDE21 /* Encoder.swift */; };
+		C6BF72322977655400ECDE21 /* RectangleBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6BF72312977655400ECDE21 /* RectangleBannerCell.xib */; };
+		C6BF72342977656200ECDE21 /* RectangleBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF72332977656200ECDE21 /* RectangleBannerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,11 +61,13 @@
 		8D77DCC1F52DD7FE0AA14B72 /* Pods_DigioTest_DigioTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigioTest_DigioTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DB279AC57C10E8C619428FD /* Pods-DigioTest-DigioTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigioTest-DigioTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-DigioTest-DigioTestUITests/Pods-DigioTest-DigioTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		BF848E261EC7AFFCE1AEFCD6 /* Pods-DigioTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigioTest.release.xcconfig"; path = "Target Support Files/Pods-DigioTest/Pods-DigioTest.release.xcconfig"; sourceTree = "<group>"; };
+		C68BD29E2977760400ADF757 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		C68BD2A02977768B00ADF757 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		C68BD2A3297776BE00ADF757 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		C6BF71D02971E1DC00ECDE21 /* DigioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BF71D32971E1DC00ECDE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C6BF71D52971E1DC00ECDE21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C6BF71D72971E1DC00ECDE21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C6BF71DA2971E1DC00ECDE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6BF71D72971E1DC00ECDE21 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C6BF71DA2971E1DC00ECDE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
 		C6BF71DC2971E1DD00ECDE21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6BF71DF2971E1DD00ECDE21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6BF71E12971E1DD00ECDE21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +76,19 @@
 		C6BF71F02971E1DD00ECDE21 /* DigioTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DigioTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BF71F42971E1DD00ECDE21 /* DigioTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTestUITests.swift; sourceTree = "<group>"; };
 		C6BF71F62971E1DD00ECDE21 /* DigioTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigioTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C6BF72082971E68900ECDE21 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C6BF720A2971E69700ECDE21 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		C6BF720C2971E6A800ECDE21 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		C6BF72142971E7ED00ECDE21 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		C6BF72192971E88D00ECDE21 /* HomeContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContent.swift; sourceTree = "<group>"; };
+		C6BF721D2971EB7F00ECDE21 /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		C6BF72222971FCDC00ECDE21 /* BannerGalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerGalleryCell.swift; sourceTree = "<group>"; };
+		C6BF72242977117900ECDE21 /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		C6BF7228297711FC00ECDE21 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		C6BF722A2977144300ECDE21 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		C6BF722C2977161C00ECDE21 /* Encoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoder.swift; sourceTree = "<group>"; };
+		C6BF72312977655400ECDE21 /* RectangleBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RectangleBannerCell.xib; sourceTree = "<group>"; };
+		C6BF72332977656200ECDE21 /* RectangleBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleBannerCell.swift; sourceTree = "<group>"; };
 		E693F95807EE9D906DC99286 /* Pods-DigioTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigioTestTests.debug.xcconfig"; path = "Target Support Files/Pods-DigioTestTests/Pods-DigioTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FAF3453744E3E8108FC3CA78 /* Pods_DigioTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigioTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7060721934167CFE80F139A5 /* Pods_DigioTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0686FD1C567400917E2045F4 /* Pods_DigioTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +131,42 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C68BD29B2977754000ADF757 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C68BD29D297775F300ADF757 /* Requests */,
+				C68BD29C2977755600ADF757 /* Base */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		C68BD29C2977755600ADF757 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF7228297711FC00ECDE21 /* Networking.swift */,
+				C6BF722A2977144300ECDE21 /* HTTPMethod.swift */,
+				C6BF722C2977161C00ECDE21 /* Encoder.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		C68BD29D297775F300ADF757 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				C68BD29E2977760400ADF757 /* Home.swift */,
+				C68BD2A02977768B00ADF757 /* Common.swift */,
+			);
+			name = Requests;
+			sourceTree = "<group>";
+		};
+		C68BD2A22977769700ADF757 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C68BD2A3297776BE00ADF757 /* ImageLoader.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		C6BF71C72971E1DC00ECDE21 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +175,7 @@
 				C6BF71F32971E1DD00ECDE21 /* DigioTestUITests */,
 				C6BF71D12971E1DC00ECDE21 /* Products */,
 				CAF76BDA702689AD31BBA329 /* Pods */,
+				A8913958AAC70F2038225334 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,13 +192,15 @@
 		C6BF71D22971E1DC00ECDE21 /* DigioTest */ = {
 			isa = PBXGroup;
 			children = (
+				C68BD2A22977769700ADF757 /* Utils */,
+				C68BD29B2977754000ADF757 /* API */,
+				C6BF721F2971FC7B00ECDE21 /* Views */,
+				C6BF72132971E7CB00ECDE21 /* Models */,
+				C6BF72072971E56F00ECDE21 /* Resources */,
+				C6BF72062971E55B00ECDE21 /* Configs */,
+				C6BF72032971E53C00ECDE21 /* Modules */,
 				C6BF71D32971E1DC00ECDE21 /* AppDelegate.swift */,
-				C6BF71D52971E1DC00ECDE21 /* SceneDelegate.swift */,
-				C6BF71D72971E1DC00ECDE21 /* ViewController.swift */,
-				C6BF71D92971E1DC00ECDE21 /* Main.storyboard */,
-				C6BF71DC2971E1DD00ECDE21 /* Assets.xcassets */,
 				C6BF71DE2971E1DD00ECDE21 /* LaunchScreen.storyboard */,
-				C6BF71E12971E1DD00ECDE21 /* Info.plist */,
 			);
 			path = DigioTest;
 			sourceTree = "<group>";
@@ -149,6 +220,87 @@
 				C6BF71F62971E1DD00ECDE21 /* DigioTestUITestsLaunchTests.swift */,
 			);
 			path = DigioTestUITests;
+			sourceTree = "<group>";
+		};
+		C6BF72032971E53C00ECDE21 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF72052971E54A00ECDE21 /* ProductDetails */,
+				C6BF72042971E54300ECDE21 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C6BF72042971E54300ECDE21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF71D72971E1DC00ECDE21 /* HomeViewController.swift */,
+				C6BF71D92971E1DC00ECDE21 /* Home.storyboard */,
+				C6BF72082971E68900ECDE21 /* HomeInteractor.swift */,
+				C6BF720A2971E69700ECDE21 /* HomePresenter.swift */,
+				C6BF720C2971E6A800ECDE21 /* HomeRouter.swift */,
+				C6BF721D2971EB7F00ECDE21 /* HomeModels.swift */,
+				C6BF72242977117900ECDE21 /* HomeWorker.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C6BF72052971E54A00ECDE21 /* ProductDetails */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProductDetails;
+			sourceTree = "<group>";
+		};
+		C6BF72062971E55B00ECDE21 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF71E12971E1DD00ECDE21 /* Info.plist */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		C6BF72072971E56F00ECDE21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF71DC2971E1DD00ECDE21 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6BF72132971E7CB00ECDE21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF72142971E7ED00ECDE21 /* Banner.swift */,
+				C6BF72192971E88D00ECDE21 /* HomeContent.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C6BF721F2971FC7B00ECDE21 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF72302977653300ECDE21 /* SquareBanner */,
+				C6BF722F297764FE00ECDE21 /* RectangleBannerCell */,
+				C6BF72222971FCDC00ECDE21 /* BannerGalleryCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C6BF722F297764FE00ECDE21 /* RectangleBannerCell */ = {
+			isa = PBXGroup;
+			children = (
+				C6BF72312977655400ECDE21 /* RectangleBannerCell.xib */,
+				C6BF72332977656200ECDE21 /* RectangleBannerCell.swift */,
+			);
+			path = RectangleBannerCell;
+			sourceTree = "<group>";
+		};
+		C6BF72302977653300ECDE21 /* SquareBanner */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SquareBanner;
 			sourceTree = "<group>";
 		};
 		CAF76BDA702689AD31BBA329 /* Pods */ = {
@@ -274,7 +426,8 @@
 			files = (
 				C6BF71E02971E1DD00ECDE21 /* LaunchScreen.storyboard in Resources */,
 				C6BF71DD2971E1DD00ECDE21 /* Assets.xcassets in Resources */,
-				C6BF71DB2971E1DC00ECDE21 /* Main.storyboard in Resources */,
+				C6BF71DB2971E1DC00ECDE21 /* Home.storyboard in Resources */,
+				C6BF72322977655400ECDE21 /* RectangleBannerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,9 +539,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6BF71D82971E1DC00ECDE21 /* ViewController.swift in Sources */,
+				C68BD2A12977768B00ADF757 /* Common.swift in Sources */,
+				C6BF721A2971E88D00ECDE21 /* HomeContent.swift in Sources */,
+				C6BF721E2971EB7F00ECDE21 /* HomeModels.swift in Sources */,
+				C6BF722D2977161C00ECDE21 /* Encoder.swift in Sources */,
+				C6BF72342977656200ECDE21 /* RectangleBannerCell.swift in Sources */,
+				C6BF72152971E7ED00ECDE21 /* Banner.swift in Sources */,
+				C6BF7229297711FC00ECDE21 /* Networking.swift in Sources */,
+				C6BF72092971E68900ECDE21 /* HomeInteractor.swift in Sources */,
+				C68BD29F2977760400ADF757 /* Home.swift in Sources */,
+				C6BF72252977117900ECDE21 /* HomeWorker.swift in Sources */,
+				C6BF72232971FCDC00ECDE21 /* BannerGalleryCell.swift in Sources */,
+				C68BD2A4297776BE00ADF757 /* ImageLoader.swift in Sources */,
+				C6BF71D82971E1DC00ECDE21 /* HomeViewController.swift in Sources */,
 				C6BF71D42971E1DC00ECDE21 /* AppDelegate.swift in Sources */,
-				C6BF71D62971E1DC00ECDE21 /* SceneDelegate.swift in Sources */,
+				C6BF720B2971E69700ECDE21 /* HomePresenter.swift in Sources */,
+				C6BF722B2977144300ECDE21 /* HTTPMethod.swift in Sources */,
+				C6BF720D2971E6A800ECDE21 /* HomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,12 +592,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C6BF71D92971E1DC00ECDE21 /* Main.storyboard */ = {
+		C6BF71D92971E1DC00ECDE21 /* Home.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C6BF71DA2971E1DC00ECDE21 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Home.storyboard;
 			sourceTree = "<group>";
 		};
 		C6BF71DE2971E1DD00ECDE21 /* LaunchScreen.storyboard */ = {
@@ -478,6 +645,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				EAGER_LINKING = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -494,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				"INFOPLIST_KEY_UIMainStoryboardFile[sdk=*]" = LaunchScreen;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -539,6 +707,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EAGER_LINKING = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -549,7 +718,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -562,6 +731,7 @@
 		};
 		C6BF71FB2971E1DD00ECDE21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 872A323C2B208C75D66B3337 /* Pods-DigioTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -571,8 +741,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigioTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
@@ -604,8 +774,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DigioTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
