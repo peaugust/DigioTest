@@ -13,6 +13,6 @@ struct HomeContent: Codable {
     let cash: Cash
     
     func toArray() -> [[Banner]] {
-        return [spotlight, products, [cash]]
+        return [spotlight, [cash], products]
     }
 }
