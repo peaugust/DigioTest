@@ -13,6 +13,8 @@
 		C68BD29F2977760400ADF757 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD29E2977760400ADF757 /* Home.swift */; };
 		C68BD2A12977768B00ADF757 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD2A02977768B00ADF757 /* Common.swift */; };
 		C68BD2A4297776BE00ADF757 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD2A3297776BE00ADF757 /* ImageLoader.swift */; };
+		C68BD2A72978644A00ADF757 /* SquareBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C68BD2A529781A1500ADF757 /* SquareBannerCell.xib */; };
+		C68BD2A82978644A00ADF757 /* SquareBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68BD2A629781A1500ADF757 /* SquareBannerCell.swift */; };
 		C6BF71D42971E1DC00ECDE21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71D32971E1DC00ECDE21 /* AppDelegate.swift */; };
 		C6BF71D82971E1DC00ECDE21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BF71D72971E1DC00ECDE21 /* HomeViewController.swift */; };
 		C6BF71DB2971E1DC00ECDE21 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6BF71D92971E1DC00ECDE21 /* Home.storyboard */; };
@@ -64,6 +66,8 @@
 		C68BD29E2977760400ADF757 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		C68BD2A02977768B00ADF757 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		C68BD2A3297776BE00ADF757 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		C68BD2A529781A1500ADF757 /* SquareBannerCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SquareBannerCell.xib; sourceTree = "<group>"; };
+		C68BD2A629781A1500ADF757 /* SquareBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBannerCell.swift; sourceTree = "<group>"; };
 		C6BF71D02971E1DC00ECDE21 /* DigioTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigioTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BF71D32971E1DC00ECDE21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6BF71D72971E1DC00ECDE21 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -299,6 +303,8 @@
 		C6BF72302977653300ECDE21 /* SquareBanner */ = {
 			isa = PBXGroup;
 			children = (
+				C68BD2A529781A1500ADF757 /* SquareBannerCell.xib */,
+				C68BD2A629781A1500ADF757 /* SquareBannerCell.swift */,
 			);
 			path = SquareBanner;
 			sourceTree = "<group>";
@@ -427,6 +433,7 @@
 				C6BF71E02971E1DD00ECDE21 /* LaunchScreen.storyboard in Resources */,
 				C6BF71DD2971E1DD00ECDE21 /* Assets.xcassets in Resources */,
 				C6BF71DB2971E1DC00ECDE21 /* Home.storyboard in Resources */,
+				C68BD2A72978644A00ADF757 /* SquareBannerCell.xib in Resources */,
 				C6BF72322977655400ECDE21 /* RectangleBannerCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -547,6 +554,7 @@
 				C6BF72152971E7ED00ECDE21 /* Banner.swift in Sources */,
 				C6BF7229297711FC00ECDE21 /* Networking.swift in Sources */,
 				C6BF72092971E68900ECDE21 /* HomeInteractor.swift in Sources */,
+				C68BD2A82978644A00ADF757 /* SquareBannerCell.swift in Sources */,
 				C68BD29F2977760400ADF757 /* Home.swift in Sources */,
 				C6BF72252977117900ECDE21 /* HomeWorker.swift in Sources */,
 				C6BF72232971FCDC00ECDE21 /* BannerGalleryCell.swift in Sources */,

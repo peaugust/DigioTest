@@ -5,10 +5,18 @@
 //  Created by Pedro Freddi on 13/01/23.
 //
 
-import Foundation
+import UIKit
 
-class HomeRouter {
-    weak var viewController: HomeViewController?
+protocol HomeRouterLogic: AnyObject {
+    func presentScreenFrom(_ banner: Banner)
+}
 
-    func pushNextScreen() {}
+class HomeRouter: HomeRouterLogic {
+    weak var navigationViewController: UINavigationController?
+
+    func presentScreenFrom(_ banner: Banner) {
+        let vc = UIViewController()
+        vc.view.backgroundColor = UIColor(red: CGFloat(arc4random_uniform(255)) / 255.0, green: CGFloat(arc4random_uniform(255)) / 255.0, blue: CGFloat(arc4random_uniform(255)) / 255.0, alpha: 1)
+        navigationViewController?.present(vc, animated: true)
+    }
 }

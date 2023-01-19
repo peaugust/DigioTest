@@ -18,15 +18,26 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="5bh-jw-3TM">
-                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <rect key="frame" x="0.0" y="109" width="393" height="743"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sez-0d-s7b">
+                                <rect key="frame" x="0.0" y="59" width="393" height="50"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="u0A-HP-gdh"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="5bh-jw-3TM" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="3Bn-4C-SGh"/>
+                            <constraint firstItem="5bh-jw-3TM" firstAttribute="top" secondItem="Sez-0d-s7b" secondAttribute="bottom" id="50r-sH-4pa"/>
+                            <constraint firstItem="5bh-jw-3TM" firstAttribute="top" secondItem="Sez-0d-s7b" secondAttribute="bottom" id="9wa-Th-sFK"/>
+                            <constraint firstItem="Sez-0d-s7b" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="T4t-tc-y1h"/>
+                            <constraint firstItem="Sez-0d-s7b" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dQY-8h-nOg"/>
                             <constraint firstAttribute="bottom" secondItem="5bh-jw-3TM" secondAttribute="bottom" id="ebI-ts-OaU"/>
+                            <constraint firstItem="Sez-0d-s7b" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="gbD-eG-CgB"/>
                             <constraint firstItem="5bh-jw-3TM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tpf-ht-hW2"/>
                             <constraint firstItem="5bh-jw-3TM" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="uQb-JM-jIt"/>
                         </constraints>
@@ -43,6 +54,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

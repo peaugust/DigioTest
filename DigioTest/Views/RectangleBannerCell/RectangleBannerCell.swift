@@ -7,7 +7,7 @@
 
 import UIKit
 
-class RectangleBannerCell: UICollectionViewCell {
+class RectangleBannerCell: UICollectionViewCell, GalleryCell {
 
     // MARK: - IBOutlets
 

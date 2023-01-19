@@ -10,6 +10,7 @@ import Foundation
 protocol HomeBusinessLogic {
     func requestHomeContent()
     func showLoading()
+    func navigateToScreen(_ banner: Banner)
 }
 
 class HomeInteractor: HomeBusinessLogic {
@@ -30,5 +31,9 @@ class HomeInteractor: HomeBusinessLogic {
 
     func showLoading() {
         presenter?.presentLoading()
+    }
+    
+    func navigateToScreen(_ banner: Banner) {
+        presenter?.presentScreen(content: banner)
     }
 }
